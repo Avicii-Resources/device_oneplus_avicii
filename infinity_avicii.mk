@@ -17,6 +17,11 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Infinity-X Specific Flags
 INFINITY_MAINTAINER := sreeshankark
+INFINITY_BUILD_TYPE := OFFICIAL
+TARGET_HAS_UDFPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_EXCLUDES_VIA := true
 TARGET_BOOT_ANIMATION_RES := 1080
 ifeq ($(WITH_GAPPS), true)
 TARGET_BUILD_GOOGLE_TELEPHONY := true
