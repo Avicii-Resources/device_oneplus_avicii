@@ -107,9 +107,6 @@ override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := lito
 
-# Media
-TARGET_USES_ION := true
-
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
