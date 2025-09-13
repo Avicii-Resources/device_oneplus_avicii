@@ -18,9 +18,6 @@
 
     <!-- Charging info current divider, if needed -->
     <integer name="config_currentInfoDivider" translatable="false">1</integer>
-
-    <!-- The CPU temperature divider, if needed -->
-    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
     
     <!-- The location of the devices physical tri state switch
          0: Left side
