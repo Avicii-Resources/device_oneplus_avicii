@@ -25,6 +25,9 @@
     <integer name="config_alertSliderLocation">1</integer>
     
     <!-- Whether key handler sends intent when changing slider position -->
-    <string name="config_alertSliderIntent">org.lineageos.settings.device.KeyHandler.UPDATE_SLIDER</string>
+    <string name="config_alertSliderIntent">com.oneplus.avicii.NordLab.slider.UPDATE_SLIDER_POSITION</string>
     
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>    
+
 </resources>
