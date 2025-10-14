@@ -163,7 +163,7 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 include device/oneplus/avicii/sepolicy/qti/SEPolicy.mk
 
 # Touch
-$(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(DEVICE_PATH)/touch/include)
+$(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(DEVICE_PATH)/aidl/touch/include)
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
