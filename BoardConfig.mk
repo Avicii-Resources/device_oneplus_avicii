@@ -52,8 +52,8 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 TARGET_BOOTLOADER_BOARD_NAME := lito
 
 # Camera
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
-TARGET_CAMERA_PACKAGE_NAME := com.oneplus.camera
+$(call soong_config_set,camera,override_format_from_reserved,true)
+$(call soong_config_set,camera,package_name,com.oneplus.camera)
 
 # Display
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
