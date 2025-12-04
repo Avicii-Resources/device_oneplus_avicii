@@ -68,6 +68,14 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 odm/lib/libaudioEngineerTest.so
 vendor/lib/hw/audio.primary.lito.so
 vendor/lib/liba2dpoffload.so
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libbatterylistener.so
+vendor/lib/libcomprcapture.so
+vendor/lib/libhfp.so
+vendor/lib/libexthwplugin.so
+vendor/lib/libhdmiedid.so
+vendor/lib/libsndmonitor.so
+vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
 vendor/lib/vendor.oplus.hardware.performance@1.0.so
 
