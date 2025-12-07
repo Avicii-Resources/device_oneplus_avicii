@@ -5,7 +5,6 @@
 
 package org.lineageos.settings.doze
 
-import android.app.Activity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
