@@ -16,15 +16,15 @@ CLANG_DIR="${SRC_DIR}/prebuilts/clang/host/linux-x86/clang-${CLANG_VERSION}";
 FW_DIR="${SRC_DIR}/vendor/oneplus/firmware";
 KERNEL_DIR="${SRC_DIR}/kernel/oneplus/avicii";
 VENDOR_DIR="${SRC_DIR}/vendor/oneplus/avicii";
-APPS_DIR="${SRC_DIR}/vendor/oneplus/apps";
+CAM_DIR="${SRC_DIR}/vendor/oneplus/camera";
 CLANG_TAR="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-${CLANG_VERSION}.tar.gz";
 FW_REPO="https://codeberg.org/sreeshankark/android_vendor_oneplus_firmware";
 KERNEL_REPO="https://github.com/sreeshankark/android_kernel_oneplus_avicii";
 VENDOR_REPO="https://github.com/sreeshankark/android_vendor_oneplus_avicii";
-APPS_REPO="https://bitbucket.org/sreeshankark/android_vendor_oneplus_apps";
+CAM_REPO="https://codeberg.org/sreeshankark/android_vendor_oneplus_camera";
 
 # Dependencies
-DEPENDENCIES=( "FW" "KERNEL" "VENDOR" "APPS" );
+DEPENDENCIES=( "FW" "KERNEL" "VENDOR" "CAM" );
 
 # Check if the dependency is available in the correct path
 function chk_dependencies() {
@@ -46,11 +46,11 @@ do
 		DIR="${VENDOR_DIR}";
 		REPO="${VENDOR_REPO}";
 		NAME="Vendor Blobs";
-	elif [ ${DEPENDENCY} = "APPS" ];
+	elif [ ${DEPENDENCY} = "CAM" ];
 	then	
-		DIR="${APPS_DIR}";
-		REPO="${APPS_REPO}";
-		NAME="OnePlus Apps";
+		DIR="${CAM_DIR}";
+		REPO="${CAM_REPO}";
+		NAME="OnePlus Camera";
 	else
 		echo -e "${R}Invalid Dependency${N}";
 	fi
