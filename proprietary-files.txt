@@ -621,48 +621,42 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # Graphics (Adreno)
-vendor/lib/egl/eglSubDriverAndroid.so|2756a938b2cfe3ba2e86e83baa232a447f7f1642
-vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so|b8259fded404dc5b2704a583083a5bf76b2f0452
-vendor/lib/egl/libGLESv1_CM_adreno.so|0a6eb4239d2231c475d4487361a7682d4603405f
-vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|b306db422314463c5915ffe4c21f2a34ad7f906f
-vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|1def3c6872ba833666c71767e51dc221eaa3d90b
-vendor/lib/egl/libq3dtools_esx.so|538f81a95bd42bff4e0981878ee6dbadf95c9d9a
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so
+vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/libC2D2.so
-vendor/lib/libCB.so|04bd2c4b963f6ae4f6aee064c9745c92c1cbd32d
+vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
-vendor/lib/libOpenCL_adreno.so|c0c925d91132d2b8a6938888a07e77abceb7c05a
 vendor/lib/libVkLayer_q3dtools.so
-vendor/lib/libadreno_app_profiles.so;DISABLE_DEPS|4bdd7502269532c475caa2bc5cb984893e0a6cbc
-vendor/lib/libadreno_utils.so|9ec8f895f4aa60064bb60b67b212880840424c79
-vendor/lib/libc2d30_bltlib.so;DISABLE_CHECKELF
-vendor/lib/libgpudataproducer.so|17dbc2bd1d212a6d3554c8c9f207060d25658370
-vendor/lib/libgsl.so|55d1f940badef4190888bcd1381f11353465f17e
-vendor/lib/libllvm-glnext.so|114150e08f617c757dfb3a5aff6c0f21d27da914
-vendor/lib/libllvm-qcom.so|2873a66df0c96d32705adea20080457b775eb6dc
-vendor/lib/libllvm-qgl.so|9c58d06c45b721ef75883eead3eefe23105902e6
-vendor/lib64/egl/eglSubDriverAndroid.so|b4c357ae9538f72554b9a54b5b2d9de5fc5b054a
-vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|8333d4965bdd967b81beab1769753343097f03ab
-vendor/lib64/egl/libGLESv1_CM_adreno.so|9c5f3e1fbc00d3cb104ca8d01789d0b011a08a36
-vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|6b05855e442c85ab3cb653ab524af1c5cf8ed0de
-vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|ff3b17ff91508f55441550013934e9467d9f44be
-vendor/lib64/egl/libq3dtools_esx.so|537fc41e083648a964bed95e05d1b37d01899ba1
+vendor/lib/libadreno_utils.so
+vendor/lib/libc2d30_bltlib.so
+vendor/lib/libgpudataproducer.so
+vendor/lib/libgsl.so
+vendor/lib/libllvm-glnext.so
+vendor/lib/libllvm-qcom.so
+vendor/lib64/egl/eglSubDriverAndroid.so
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
+vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/libC2D2.so
-vendor/lib64/libCB.so|a4289a467cf9f5eb6c033a6ac3d4d604d62eff8b
+vendor/lib64/libCB.so
 vendor/lib64/libOpenCL.so
-vendor/lib64/libOpenCL_adreno.so|c3c9c52a61d75be6ee7918fd0c7931bcd327dc7a
 vendor/lib64/libVkLayer_q3dtools.so
-vendor/lib64/libadreno_app_profiles.so;DISABLE_DEPS|623b0d0d1fa1863261c4e9bbdcb6917376a31155
-vendor/lib64/libadreno_utils.so|6d2011fae45f0daf1ec2c6c11c089fcc261781c6
-vendor/lib64/libc2d30_bltlib.so;DISABLE_CHECKELF
-vendor/lib64/libgpudataproducer.so|c6b7099dd71dd236d36848c602a29daf97bdcf40
-vendor/lib64/libgsl.so|3ee2d8cdc6b4954f120f3841f0e76e6963f1de66
-vendor/lib64/libllvm-glnext.so|d34f120bf4808cef8df13c72213bb759addb6ead
-vendor/lib64/libllvm-qcom.so|6024789e365044430a4d1c420f86bf0ce00c082f
-vendor/lib64/libllvm-qgl.so|700db5c5d1d82e8646dccc00649fcba312e06fdb
+vendor/lib64/libadreno_utils.so
+vendor/lib64/libc2d30_bltlib.so
+vendor/lib64/libgpudataproducer.so
+vendor/lib64/libgsl.so
+vendor/lib64/libllvm-glnext.so
+vendor/lib64/libllvm-qcom.so
 
 # Graphics (Adreno firmware)
 vendor/firmware/a650_gmu.bin
-vendor/firmware/a650_sqe.fw|a011deb174929b874fb668d7c8041cfb712b6417
+vendor/firmware/a650_sqe.fw
 vendor/firmware/a620_zap.b00
 vendor/firmware/a620_zap.b01
 vendor/firmware/a620_zap.b02
@@ -670,8 +664,8 @@ vendor/firmware/a620_zap.elf
 vendor/firmware/a620_zap.mdt
 
 # Graphics (Vulkan)
-vendor/lib/hw/vulkan.adreno.so|745dc99ae94098c04c0130d4234f64b8d8bd18fc
-vendor/lib64/hw/vulkan.adreno.so|e7353cc083be9c7a12fba201c51558d808229c18
+vendor/lib/hw/vulkan.adreno.so
+vendor/lib64/hw/vulkan.adreno.so
 
 # GNSS
 odm/etc/izat.conf
