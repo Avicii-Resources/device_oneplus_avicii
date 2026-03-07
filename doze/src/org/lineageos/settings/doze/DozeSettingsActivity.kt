@@ -11,13 +11,14 @@ import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
 class DozeSettingsActivity : CollapsingToolbarBaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        fragmentManager
+        supportFragmentManager
             .beginTransaction()
             .replace(
                 com.android.settingslib.collapsingtoolbar.R.id.content_frame,
                 DozeSettingsFragment(),
-                TAG
-            ).commit()
+                TAG,
+            )
+            .commit()
     }
 
     companion object {
