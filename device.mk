@@ -161,7 +161,7 @@ PRODUCT_COPY_FILES += \
 # Doze
 PRODUCT_PACKAGES += \
     OplusDoze \
-    OplusDozeResCommon
+    OplusDozeRes
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -315,25 +315,15 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-infinity
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_ENFORCE_Res_TARGETS := *
 PRODUCT_PACKAGES += \
-    CarrierConfigResCommon \
-    FrameworksResCommon \
-    FrameworksResGeneric \
-    FrameworksResTarget \
-    OPlusFrameworksResCommon \
-    OPlusFrameworksResTarget \
-    OPlusSettingsProviderResTarget \
-    OPlusSettingsResCommon \
-    OPlusSettingsResTarget \
-    OPlusSystemUIResCommon \
-    OPlusSystemUIResTarget \
-    OPlusWifiResCommon \
-    SettingsProviderResGeneric \
-    SystemUIResCommon \
-    TelephonyResCommon \
-    WifiResCommon \
-    WifiResTarget
+    CarrierConfigRes \
+    FrameworksRes \
+    SettingsProviderRes \
+    SettingsRes \
+    SystemUIRes \
+    TelephonyRes \
+    WifiRes
     
 # Partitions
 PRODUCT_PACKAGES += \
