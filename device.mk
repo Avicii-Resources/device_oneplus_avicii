@@ -313,7 +313,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_ENFORCE_Res_TARGETS := *
 PRODUCT_PACKAGES += \
-    ApertureRes \
     CarrierConfigRes \
     FrameworksRes \
     LineageSdkRes \
