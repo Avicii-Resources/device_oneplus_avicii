@@ -160,8 +160,7 @@ PRODUCT_COPY_FILES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    OplusDoze \
-    OplusDozeRes
+    OplusDoze
 
 # DRM
 PRODUCT_PACKAGES += \
