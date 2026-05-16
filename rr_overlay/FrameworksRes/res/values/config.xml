@@ -786,10 +786,4 @@
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">true</bool>
 
-    <!-- Whether device has warp charging support -->
-    <bool name="config_hasWarpCharger">true</bool>
-
-    <!-- Path to warp charging status file -->
-    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
-
 </resources>
