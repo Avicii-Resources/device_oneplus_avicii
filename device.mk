@@ -168,7 +168,6 @@ PRODUCT_PACKAGES += \
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl.custom \
-    fastbootd
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -334,6 +333,7 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,qtipower,tap_to_wake_node,/proc/touchpanel/double_tap_enable)
 
+<<<<<<< HEAD
 # Preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
@@ -356,6 +356,11 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl
+=======
+# Recovery
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc
+>>>>>>> 8bd0350 (marble: fastbootd is now enabled by default)
 
 # Sensors
 PRODUCT_PACKAGES += \
