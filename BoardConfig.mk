@@ -194,6 +194,3 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/avicii/BoardConfigVendor.mk
-
-# Include the firmware images BoardConfig.
-include vendor/oneplus/firmware/BoardConfigVendor.mk
